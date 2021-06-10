@@ -27,7 +27,7 @@
       //   })
       // },
       mounted() {
-        this.id=$route.query.id
+        this.id=this.$route.query.id
       }
     }
 </script>
